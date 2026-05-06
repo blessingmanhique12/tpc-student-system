@@ -1,4 +1,10 @@
 START
 INPUT studentName
-IF score >= 50% THEN 
- O
+INPUT score
+IF score >= 50% THEN
+    OUTPUT "Student Name: " + studentName + " Results: Pass"
+ELSE
+    OUTPUT "Student Name: " + studentName + " Results: Fail"
+END IF
+OUTPUT "Thank you for using the portal"
+END
