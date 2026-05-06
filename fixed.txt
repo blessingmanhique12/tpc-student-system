@@ -1,0 +1,4 @@
+START
+INPUT studentName
+IF score >= 50% THEN 
+ O
